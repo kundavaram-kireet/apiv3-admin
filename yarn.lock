@@ -2921,10 +2921,6 @@ react-intl@^1.2.0:
     intl-relativeformat "1.1.0"
     react ">=0.11.2 <0.14.0"
 
-react-native-navbar@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/react-native-navbar/-/react-native-navbar-1.7.1.tgz#de0e6f8c2156c7e984bb43c76732bd2437b7df0f"
-
 react-navbar@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-navbar/-/react-navbar-1.0.0.tgz#207a0ff5d2573557170dc2eed962a0a16fa6bd0f"

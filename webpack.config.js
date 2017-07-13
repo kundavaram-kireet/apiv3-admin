@@ -18,15 +18,10 @@ module.exports = {
     filename: 'index_bundle.js'
   },
   module: {
-    loaders: [{
-  test: /\.js$/,
-   include: [
-     path.resolve(__dirname, "src"),
-     path.resolve(__dirname, "node_modules/react-native-navbar")
-   ],
-  loader: 'babel',
-  query: { stage: 0, plugins: [] }
-}]
+    loaders: [
+      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
+    ]
   },
   plugins: [HtmlWebpackPluginConfig]
 }

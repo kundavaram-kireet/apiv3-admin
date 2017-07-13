@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import NavComponent from './components/NavComponent.jsx';
 import App from './components/App.jsx';
-// import NavBar from './components/NavBar.jsx';
 
-
+// ReactDOM.render(<NavComponent />, document.querySelector('navbar'));
 ReactDOM.render(<App />, document.getElementById('root'));
-// ReactDOM.render(<NavBar />, document.getElementById('root'));
