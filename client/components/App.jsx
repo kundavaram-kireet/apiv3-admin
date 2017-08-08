@@ -1,6 +1,19 @@
 import React from 'react';
 
-import Navbar from 'react-navbar';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  Container,
+  Row,
+  Col,
+  Jumbotron,
+  Button
+} from 'reactstrap';
 
 export default class App extends React.Component {
   render() {
@@ -8,10 +21,10 @@ export default class App extends React.Component {
     <div style={{textAlign: 'center'}}>
         <h1>Admin UI</h1>
         	<h2 style={{textAlign: 'left'}}> Navigation Bar </h2>
-	    <nav>
+	    <section>
 	      	<div className="dropdown" style={{textAlign: 'left'}}>
-	      		<button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Users
-				<span className="caret"></span></button>
+	      		<Button className="btn btn-primary dropdown-toggle" color="success" type="button" data-toggle="dropdown">Users
+				<span className="caret"></span></Button>
 	        		<ul className="dropdown-menu">
 	        			<li><a href="#">User 1</a></li>
 	        			<li className="divider"></li>
@@ -42,7 +55,7 @@ export default class App extends React.Component {
 	    				<li><a href="#">API Key 3</a></li>
 	 				 </ul>
 	        </div>
-        </nav>        	
+        </section>        	
     </div>);
  
 }
