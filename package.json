@@ -20,6 +20,7 @@
     "react-navbar": "^1.0.0",
     "react-transition-group": "^2.2.0",
     "reactstrap": "^4.8.0",
+    "style-loader": "^0.18.2",
     "webpack-dev-server": "^2.5.0"
   },
   "devDependencies": {

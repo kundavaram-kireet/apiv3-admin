@@ -34,8 +34,8 @@ export default class App extends React.Component {
 	 				 </ul>
 	        </div>
 	      	<div className="dropdown" style={{textAlign: 'left'}}>
-	      		<button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Datasets
-				<span className="caret"></span></button>
+	      		<Button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Datasets
+				<span className="caret"></span></Button>
 	        		<ul className="dropdown-menu">
 	        			<li><a href="#">Dataset 1</a></li>
 	        			<li className="divider"></li>
@@ -45,8 +45,8 @@ export default class App extends React.Component {
 	 				 </ul>
 	        </div>
 	      	<div className="dropdown" style={{textAlign: 'left'}}>
-	      		<button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">API Keys
-				<span className="caret"></span></button>
+	      		<Button className="btn btn-primary dropdown-toggle" color="danger" type="button" data-toggle="dropdown">API Keys
+				<span className="caret"></span></Button>
 	        		<ul className="dropdown-menu">
 	        			<li><a href="#">API Key 1</a></li>
 	        			<li className="divider"></li>
